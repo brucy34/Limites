@@ -1,0 +1,131 @@
+body
+{
+    width: auto;
+    background: url("./images/fond_jaune.png");
+    font-family: "trebuchet MS", arial, Sans-serif;
+    color: #181818;
+}
+.block_page
+{
+    width: 1000px;
+    border: black 2px solid;
+    margin: auto;
+    padding: 20px;
+}
+.chien
+{
+    width: 980px;
+    height: 250px;
+}
+section
+{
+    display: flex;
+    flex-direction: row;
+    background: url(./images/separateur.png) repeat-x bottom;
+}
+article
+{
+    padding: 20px;
+}
+.petit
+{
+    float: left;
+    padding: 10px;
+}
+.art
+{
+     background: grey;
+     border-radius: 10%;
+     border: grey 2px inset;
+     box-shadow: 6px 7px 6px black;
+     height: 650px;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header h1
+{
+    font-family: "dayrom", arial, sans-serif;
+    text-align: center;
+
+}
+header
+{
+    background: url(./images/separateur.png) repeat-x bottom;
+}
+p
+{
+    text-align: justify;
+}
+header ul
+{
+    text-decoration: darkturquoise;
+    font-size: large;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: row;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-around;
+}
+@font-face 
+{
+    font-family: 'beyond';
+    src: url(./polices/beyond-webfont.woff) format(woff),
+         url(./polices/beyond-webfont.woff2) format(woff2),
+         url(./polices/Beyond.ttf) format(Truetype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face
+{
+    font-family: "ballpark";
+    src: url(./polices/ballpark.ttf) format(truetype),
+         url(./polices/ballpark.woff) format(woff);
+    font-style: normal;
+    font-weight: normal;     
+         
+}
+@font-face
+{
+    font-family: "dayrom";
+    src: url(./polices/dayrom.eot) format(oet),
+         url(./polices/dayrom.svg) format(svg),
+         url(./polices/dayrom.ttf) format(truetype),
+         url(./polices/dayrom.woff) format(woff);
+    font-weight: normal;
+    font-style: normal;     
+}
+header nav ul
+{
+    list-style-type: none;
+}
+footer nav ul
+{
+    list-style-type: upper-alpha;
+}
+a:hover
+{
+    color: darkviolet;
+}
+a:active
+{
+    color: deeppink;
+    font-style: italic;
+}
+a:visited
+{
+    color: black;
+    font-weight: bold;
+}
+header div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;    
+}
